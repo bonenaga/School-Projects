@@ -1,0 +1,6 @@
+If songs.db contains the top 100 songs of one listener from 2018, how would you characterize their audio aura?
+I still don't really understand what an audio aura is supposed to be. Reading the linked article did not really clarify it. I think the idea that someone is reading auras that align with someone's music just sounds a bit ridiculous.
+
+Hypothesize about why the way you’ve calculated this aura might not be very representative of the listener. What better ways of calculating this aura would you propose?
+For one, it would help to have some hard math associated with each "aura" which may be the case behind the scenes for Spotify but that formula is not provided in the linked article.
+Two, I think deeper analysis is required. A person's preferences might vary by what they're doing, which could be identified for regular activities by looking for patterns that indicate a schedule.

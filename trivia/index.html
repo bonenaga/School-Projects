@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trivia!</title>
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <div class="header">
+        <h1>Trivia!</h1>
+    </div>
+    <div class="container">
+        <!-- Multiple Choice Section -->
+        <div class="section" id="multiple-choice">
+            <h2>Part 1: Multiple Choice</h2>
+            <hr>
+            <h3>In Star Wars, what color lightsaber does Luke Skywalker build?</h3>
+            <button class="mc-btn" data-correct="false">Blue</button>
+            <button class="mc-btn" data-correct="true">Green</button>
+            <button class="mc-btn" data-correct="false">Red</button>
+            <p id="mc-feedback"></p>
+        </div>
+
+        <!-- Free Response Section -->
+        <div class="section" id="free-response">
+            <h2>Part 2: Free Response</h2>
+            <hr>
+            <h3>What sound does a pterodactyl make?</h3>
+            <input type="text" id="fr-answer" placeholder="No it's not fair, too bad">
+            <button onclick="checkFreeResponse()">Confirm</button>
+            <p id="fr-feedback"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+

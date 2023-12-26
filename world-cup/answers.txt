@@ -1,0 +1,18 @@
+Times:
+
+10 simulations: 0m0.037s
+100 simulations: 0m0.032s
+1000 simulations: 0m0.038s
+10000 simulations: 0m0.116s
+100000 simulations: 0m0.919s
+1000000 simulations: 0m9.324s
+
+Questions:
+
+Which predictions, if any, proved incorrect as you increased the number of simulations?:
+Running the fewest simulations didn't always result in the lowest time and definitely did not result in the most efficient time vs simulations result
+
+Suppose you're charged a fee for each second of compute time your program uses.
+After how many simulations would you call the predictions "good enough"?:
+If the fee was always based on whole seconds, I would run 100000 since that's the most you can get without going over 1 second but going for fewer simulations would result in the same charge.
+If the fee was prorated based on the exact time, I would choose either 1000 or 10000 since those seem to be in a happy medium area where we get a large number of simulations before the time starts increasing significantly.
