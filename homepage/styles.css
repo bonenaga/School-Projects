@@ -1,0 +1,52 @@
+/* Element Selector: Styles for body element */
+body {
+    font-family: Arial, sans-serif; /* CSS property 1 */
+    background-color: #f4f4f4; /* CSS property 2 */
+    line-height: 1.6; /* CSS property 3 */
+    color: #333; /* CSS property 4 */
+    padding: 20px; /* CSS property 5 */
+}
+
+/* Class Selector: Styles for the navigation bar */
+.navbar {
+    background: #333;
+    color: white;
+    padding: 10px 0;
+}
+
+/* ID Selector: Specific style for the main title */
+#main-title {
+    text-align: center;
+    color: #007bff;
+}
+
+/* Pseudo-class Selector: Change link colors on hover */
+a:hover {
+    color: #007bff;
+    text-decoration: none;
+}
+
+/* Attribute Selector: Style buttons with a specific class */
+button[class^='btn-'] {
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+/* Style for correct/incorrect feedback */
+.feedback-correct {
+    color: green;
+}
+
+.feedback-incorrect {
+    color: red;
+}
+
+/* Responsive text for smaller screens */
+@media (max-width: 768px) {
+    h1, h2, h3 {
+        font-size: smaller;
+    }
+}

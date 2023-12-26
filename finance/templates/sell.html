@@ -1,0 +1,36 @@
+{% extends "layout.html" %}
+
+{% block title %}
+Index Page
+{% endblock %}
+
+{% block main %}
+<!-- Content specific to this page -->
+<h2>Sell</h2>
+<!-- more content here -->
+
+
+<!-- templates/sell.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Your head content here -->
+</head>
+<body>
+    <h1>Sell Shares</h1>
+    <form action="/sell" method="post">
+        <div>
+            <label for="symbol">Stock Symbol:</label>
+            <select id="symbol" name="symbol" required>
+                <!-- Options will be populated by the Flask app -->
+            </select>
+        </div>
+        <div>
+            <label for="shares">Shares:</label>
+            <input id="shares" name="shares" type="number" min="1" required>
+        </div>
+        <button type="submit">Sell</button>
+    </form>
+</body>
+</html>
+{% endblock %}

@@ -1,0 +1,26 @@
+{% extends "layout.html" %}
+
+{% block title %}
+Index Page
+{% endblock %}
+
+{% block main %}
+<!-- templates/quote.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Head content: Ensure to include links to any stylesheets or scripts you need -->
+    <title>Stock Quote</title>
+</head>
+<body>
+    <h1>Look up Stock Price</h1>
+    <form action="/quote" method="post">
+        <div>
+            <label for="symbol">Stock Symbol:</label>
+            <input id="symbol" name="symbol" type="text" placeholder="e.g., AAPL" required>
+        </div>
+        <button type="submit">Get Quote</button>
+    </form>
+</body>
+</html>
+{% endblock %}

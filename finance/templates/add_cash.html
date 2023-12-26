@@ -1,0 +1,17 @@
+<!-- templates/add_cash.html -->
+{% extends "layout.html" %}
+
+{% block title %}
+Add Cash
+{% endblock %}
+
+{% block main %}
+<h1>Add Cash to Your Account</h1>
+<form action="/add_cash" method="post">
+    <div class="form-group">
+        <label for="cash_to_add">Amount:</label>
+        <input autocomplete="off" class="form-control" id="cash_to_add" name="cash_to_add" placeholder="Amount" type="text" required>
+    </div>
+    <button class="btn btn-primary" type="submit">Add</button>
+</form>
+{% endblock %}

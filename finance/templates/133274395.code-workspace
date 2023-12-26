@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "../.."
+		}
+	],
+	"settings": {
+		"gitdoc.enabled": true,
+		"files.associations": {
+			"string.h": "c",
+			"stdlib.h": "c"
+		}
+	}
+}
